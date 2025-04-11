@@ -16,7 +16,7 @@ public class Move : MonoBehaviour
         //transform.position += new Vector3(Time.deltaTime*moveSpeed, 0);
         if (direction.x != 0 && direction.y != 0)
         {
-            direction.Normalize();
+            direction /= Mathf.Sqrt(2);
         }
         rb.linearVelocity = new Vector2(direction.x * moveSpeed, direction.y * moveSpeed);
     }
