@@ -266,9 +266,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: -0.11876076
     width: 1
-    height: 1
+    height: 1.2392427
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -1360,9 +1360,9 @@ GameObject:
   m_Component:
   - component: {fileID: 908524405}
   - component: {fileID: 908524404}
-  - component: {fileID: 908524403}
   - component: {fileID: 908524406}
   - component: {fileID: 908524407}
+  - component: {fileID: 908524408}
   m_Layer: 0
   m_Name: Triangle
   m_TagString: Untagged
@@ -1370,19 +1370,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &908524403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 908524402}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7d95723a49856e45909f9dc5376d7e7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 15
 --- !u!212 &908524404
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1526,6 +1513,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &908524408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908524402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3584bfc097d1cf24794e520e6ebb7b75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashDistance: 3.5
+  dashDuration: 0.15
+  cooldown: 0.8
+  moveSpeed: 10
 --- !u!1 &1169323531
 GameObject:
   m_ObjectHideFlags: 0
