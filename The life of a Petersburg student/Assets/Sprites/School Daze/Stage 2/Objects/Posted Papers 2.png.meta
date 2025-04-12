@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Posted Papers 2_0: 622739227727032179
+      Posted Papers 2_1: 1399442090844020843
+      Posted Papers 2_2: -3120582427425324945
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

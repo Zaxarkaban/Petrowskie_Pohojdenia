@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chalk Board_0: -8611806688258835430
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chalk Writing_0: 2273553977519147856
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
